@@ -1,0 +1,17 @@
+vendor_qti_diag::2901:
+vendor_qdss::2902:
+vendor_rfs::2903:
+vendor_rfs_shared::2904:
+vendor_adpl_odl::2905:
+vendor_qrtr::2906:
+vendor_thermal::2907:
+vendor_fastrpc::2908:
+vendor_qtr::2909:
+vendor_bridge_rw::5001:
+vendor_pwric::5101:
+vendor_tcmd::5104:
+vendor_dbvc::5114:
+vendor_fingerp::5115:
+vendor_dtv::5119:
+vendor_mod::5120:
+vendor_prod_persist::5121:

@@ -1,0 +1,11 @@
+#line 1 "motorola/security/sepolicy/vendor/sm6150/service_contexts"
+## NOTE: Contexts added in this file MUST start with a blank line as below.
+
+android.samsung.IRemosaicDaemon           u:object_r:remosaic_service:s0
+
+##NOTE: DO NOT change the last line, keep it as blank!.
+
+#line 1 "system/sepolicy/reqd_mask/service_contexts"
+# empty service_contexts file - this file is used to generate an empty
+# non-platform service_context for devices without any service_contexts
+# customizations.

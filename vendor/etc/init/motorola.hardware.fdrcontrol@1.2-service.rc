@@ -1,0 +1,4 @@
+service vendor.mot.fdrcontrol-hal-1-2 /vendor/bin/hw/motorola.hardware.fdrcontrol@1.2-service
+    class hal
+    user system
+    group system

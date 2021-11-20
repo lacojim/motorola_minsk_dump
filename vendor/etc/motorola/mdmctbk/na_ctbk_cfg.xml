@@ -1,0 +1,87 @@
+<xml>
+    <ctbk_version>20</ctbk_version>
+    <wifi_tx_pwr>
+        <Default_5GHZ   index="0">25</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">25</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">25</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">25</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">25</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">25</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">18</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">18</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">11</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">10</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State8_5GHZ    index="10">18</State8_5GHZ>  <!--5G,Handheld Reduced, WLAN+WWAN-->
+        <State9_5GHZ    index="11">15</State9_5GHZ>  <!--5G,Handheld Reduced, WLAN only-->
+        <State4_2GHZ    index="12">19</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="13">19</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="14">21</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="15">21</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+        <State8_2GHZ    index="16">21</State8_2GHZ>  <!--2G,Handheld Reduced, WLAN+WWAN-->
+        <State9_2GHZ    index="17">21</State9_2GHZ>  <!--2G,Handheld Reduced, WLAN only-->
+    </wifi_tx_pwr>
+    <wifi_tx_pwr_fem>
+        <Default_5GHZ   index="0">25</Default_5GHZ> <!--5G, Max power-->
+        <State1_5GHZ    index="1">25</State1_5GHZ>  <!--5G,WLAN+WWAN-->
+        <State2_5GHZ    index="2">12</State2_5GHZ>  <!--5G,MHS, WLAN+WAN-->
+        <Default_2GHZ   index="3">25</Default_2GHZ> <!--2G, Max power-->
+        <State1_2GHZ    index="4">25</State1_2GHZ> <!--2G,WLAN+WWAN-->
+        <State2_2GHZ    index="5">24</State2_2GHZ> <!--2G,MHS, WLAN+WAN-->
+        <State4_5GHZ    index="6">22</State4_5GHZ>  <!--5G,At head, WLAN only-->
+        <State5_5GHZ    index="7">19</State5_5GHZ>  <!--5G,At head, WLAN+WWAN-->
+        <State6_5GHZ    index="8">16</State6_5GHZ>  <!--5G,Body-Worn, WLAN only-->
+        <State7_5GHZ    index="9">12</State7_5GHZ>  <!--5G,Body-Worn, WLAN+WWAN-->
+        <State8_5GHZ    index="10">18</State8_5GHZ>  <!--5G,Handheld Reduced, WLAN+WWAN-->
+        <State9_5GHZ    index="11">22</State9_5GHZ>  <!--5G,Handheld Reduced, WLAN only-->
+        <State4_2GHZ    index="12">20</State4_2GHZ>  <!--2G,At head, WLAN only-->
+        <State5_2GHZ    index="13">20</State5_2GHZ>  <!--2G,At head, WLAN+WWAN-->
+        <State6_2GHZ    index="14">23</State6_2GHZ>  <!--2G,Body-Worn, WLAN only-->
+        <State7_2GHZ    index="15">23</State7_2GHZ>  <!--2G,Body-Worn, WLAN+WWAN-->
+        <State8_2GHZ    index="16">23</State8_2GHZ>  <!--2G,Handheld Reduced, WLAN+WWAN-->
+        <State9_2GHZ    index="17">23</State9_2GHZ>  <!--2G,Handheld Reduced, WLAN only-->
+    </wifi_tx_pwr_fem>
+    <wifi_tx_pwr_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">18</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">18</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">18</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">18</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">10</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">10</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">10</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">10</Band4_5GHZ_Body_Worn>
+        <Band1_5GHZ_Hand_Held   index="8">15</Band1_5GHZ_Hand_Held>
+        <Band2_5GHZ_Hand_Held   index="9">15</Band2_5GHZ_Hand_Held>
+        <Band3_5GHZ_Hand_Held   index="10">15</Band3_5GHZ_Hand_Held>
+        <Band4_5GHZ_Hand_Held   index="11">15</Band4_5GHZ_Hand_Held>
+    </wifi_tx_pwr_5g_split_band>
+    <wifi_tx_pwr_fem_5g_split_band>
+        <Band1_5GHZ_At_Head   index="0">22</Band1_5GHZ_At_Head>
+        <Band2_5GHZ_At_Head   index="1">22</Band2_5GHZ_At_Head>
+        <Band3_5GHZ_At_Head   index="2">20</Band3_5GHZ_At_Head>
+        <Band4_5GHZ_At_Head   index="3">20</Band4_5GHZ_At_Head>
+        <Band1_5GHZ_Body_Worn   index="4">14</Band1_5GHZ_Body_Worn>
+        <Band2_5GHZ_Body_Worn   index="5">14</Band2_5GHZ_Body_Worn>
+        <Band3_5GHZ_Body_Worn   index="6">13</Band3_5GHZ_Body_Worn>
+        <Band4_5GHZ_Body_Worn   index="7">13</Band4_5GHZ_Body_Worn>
+        <Band1_5GHZ_Hand_Held   index="8">20</Band1_5GHZ_Hand_Held>
+        <Band2_5GHZ_Hand_Held   index="9">20</Band2_5GHZ_Hand_Held>
+        <Band3_5GHZ_Hand_Held   index="10">19</Band3_5GHZ_Hand_Held>
+        <Band4_5GHZ_Hand_Held   index="11">19</Band4_5GHZ_Hand_Held>
+    </wifi_tx_pwr_fem_5g_split_band>
+    <wifi_fem_sku_radio_id_list>
+        <Radio_id            index="0">na</Radio_id>
+    </wifi_fem_sku_radio_id_list>
+    <sar_sensors>
+        <sensor type="prox_front"           index="0">tmd2755 Proximity Sensor Wakeup</sensor>
+        <sensor type="prox_back"            index="1">null</sensor>
+        <!--from back view-->
+        <sensor type="cap_bottom_left"      index="2">Moto CapSense Ch1</sensor>
+        <sensor type="cap_bottom_right"     index="3">Moto CapSense Ch2</sensor>
+        <sensor type="cap_top_right"        index="4">Moto CapSense Ch0</sensor>
+        <sensor type="cap_top_center"       index="5">Moto CapSense Ch4</sensor>
+    </sar_sensors>
+    <!--OB5 config: 5 = 00000101b (cap_bottom_left|cap_top)-->
+    <ob5_sensor_config>5</ob5_sensor_config>
+    <!--TX0 config: 8 = 00001000b (high bit 5GHZ low bit 2GHZ)-->
+    <wifi_tx0_sensor_config>8</wifi_tx0_sensor_config>
+</xml>

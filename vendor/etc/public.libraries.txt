@@ -1,0 +1,17 @@
+libqti-perfd-client.so
+libadsprpc.so
+libcdsprpc.so
+libsdsprpc.so
+libfastcvopt.so
+liblistensoundmodel2.so
+libOpenCL.so
+libnpu.so
+libhta_hexagon_runtime.so
+libfastcvopt.so
+libqmi_cci.so
+libqmi_common_so.so
+libqmiservices.so
+libqmimotext.so
+libiqi_bridge.so
+liblowlight_ai_portrait.arcsoft.so
+
