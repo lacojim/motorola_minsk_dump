@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria carrierBased="true" package="com.amazon.appmanager" default_action="disable">
+        <criteria action="enable" prop="ro.csc.amazon.partnerid"/>
+        <criteria action="enable" channel="retca" mccmnc="302220"/>
+        <criteria action="enable" channel="retca" mccmnc="302370"/>
+        <criteria action="enable" channel="retca" mccmnc="302720"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

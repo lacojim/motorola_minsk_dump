@@ -1,0 +1,6 @@
+/(product|system/product)/etc/cdrom     u:object_r:mmi_cdrom_file:s0
+/(product|system/product)/etc/vzw_cdrom     u:object_r:mmi_cdrom_file:s0
+/(product|system/product)/bin/fsck\.exfat   u:object_r:fsck_exec:s0
+/(product|system/product)/bin/mkfs\.exfat   u:object_r:e2fs_exec:s0
+/(product|system/product)/bin/init\.qti\.display\.sh             u:object_r:vendor_sys_qti_display_exec:s0
+/data/preinstall-app-lib(/.*)?               u:object_r:apk_data_file:s0

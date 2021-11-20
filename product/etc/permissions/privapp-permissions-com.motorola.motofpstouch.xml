@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.motofpstouch">
+        <permission name="android.permission.STOP_APP_SWITCHES" />
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
+        <permission name="android.permission.REAL_GET_TASKS" />
+        <permission name="android.permission.START_TASKS_FROM_RECENTS" />
+    </privapp-permissions>
+</permissions>

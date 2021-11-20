@@ -1,0 +1,2 @@
+on post-fs-data
+    setprop ro.audio.relative_volume true

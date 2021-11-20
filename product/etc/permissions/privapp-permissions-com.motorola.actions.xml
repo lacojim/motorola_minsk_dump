@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.actions">
+
+        <!-- signature|privileged -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="com.motorola.permission.EXTRA_SCREEN_STATUS"/>
+        <permission name="com.motorola.permission.EXTRA_SCREEN_CONTROL"/>
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+
+    </privapp-permissions>
+</permissions>

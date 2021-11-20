@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These are configurations that should exist on US Retail devices. -->
+<config>
+    <!-- Pre-installed carrier apps which should be disabled until a matching SIM is inserted. -->
+    <disabled-until-used-preinstalled-carrier-app package="com.republicwireless.tel" />
+</config>

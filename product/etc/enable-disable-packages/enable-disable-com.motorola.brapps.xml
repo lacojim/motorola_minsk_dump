@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.brapps" component="com.motorola.brapps/.shortcut.BootReceiver" default_action="disable">
+        <criteria action="enable" channel="niibr;retbr;timbr;amxbr;oibr;openbr;tefbr;tefmx;tefco;tigco;tefpe;niipe;attmx;amxmx;openmx;amxco;retar;retcl;retla" />
+    </package-disable-enable-criteria>
+</enable-disable-package>

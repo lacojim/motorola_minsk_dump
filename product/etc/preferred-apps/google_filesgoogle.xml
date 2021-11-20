@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<preferred-activities>
+    <item name="com.google.android.apps.nbu.files/.home.HomeActivity">
+      <filter>
+            <action name="android.os.storage.action.MANAGE_STORAGE" />
+            <cat name="android.intent.category.DEFAULT" />
+      </filter>
+    </item>
+</preferred-activities>

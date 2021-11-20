@@ -1,0 +1,17 @@
+<!--
+    Copyright (C) 2021 Motorola Mobility LLC,
+    All Rights Reserved.
+    Motorola Mobility Confidential Restricted.
+-->
+<enable-disable-package>
+    <package-disable-enable-criteria
+            package="com.motorola.contacts.preloadcontacts.overlay.vzw"
+            checkOnReboot="true"
+            carrierBase="true"
+            default_action="disable">
+        <criteria action="enable" channel="vzw"/>
+        <criteria action="enable" channel="vzwpre"/>
+        <criteria action="enable" channel="retus" mccmnc="311480"/>
+        <criteria action="enable" channel="reteu" mccmnc="20404"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

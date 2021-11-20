@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.roaming.android.gsimcontentprovider" default_action="disable">
+        <!-- Enable for LATAM -->
+        <criteria action="enable" channel="amxbr;amxpr;amxmx;amxcl;amxar;amxla;amxpe;amxco;tefbr;tefmx;tefar;tefcl;tefpe;tefco;perar;entcl;iusmx;niibr;niicl;niimx;niipe;oibr;timbr;tigco;retbr;retar;retla;retcl;tefla;retla1st;tefunl;tigca;tigca1st;retmx;attmx;womcl;avaco;retpe;openla;opencl;openmx;altmx"/>
+
+        <!-- Enable for APAC -->
+        <criteria action="enable" channel="retin;retcn;telstra;vfau;amzin;jioin;airin;retid;cmcc;ctcn;cucn;retmm;gt4gtw;retth;retru;trueth;smarthk;mobilpk;retsea;retapac;retjp"/>
+
+        <!-- Enable for EMEA -->
+        <criteria action="enable" channel="reteu;reteu2;retgb;retfr;retes;retie;retde;vfgb;vfde;vffr;o2gb;o2de;orafr;bouyfr;eegb;tescogb;yoigo;oraes;retmea;vfit;vfes;vfeu;3gb;tescoie;altfr;3ie;altpt;timit;retma;windit;vfhu;vfro;telhu;playpl;oraeu;dteu;teleu;pluspl;dtpl;tefes;altice;vipeu;veoneu;openeu"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

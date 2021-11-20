@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.gamemode">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.POWER_SAVER" />
+        <permission name="android.permission.REAL_GET_TASKS" />
+        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
+        <permission name="android.permission.STATUS_BAR" />
+    </privapp-permissions>
+</permissions>

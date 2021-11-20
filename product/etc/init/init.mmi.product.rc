@@ -1,0 +1,15 @@
+on property:ro.vendor.hw.ram=3GB
+    setprop ro.MAX_HIDDEN_APPS 32
+    setprop ro.lmk.swap_util_max 70
+    setprop ro.lmk.thrashing_limit 60
+    setprop ro.lmk.swap_free_low_percentage 30
+on property:ro.vendor.hw.ram=4GB
+    setprop ro.MAX_HIDDEN_APPS 36
+    setprop ro.lmk.swap_util_max 70
+    setprop ro.lmk.thrashing_limit 60
+    setprop ro.lmk.swap_free_low_percentage 30
+on property:ro.vendor.hw.ram=6GB
+    setprop ro.MAX_HIDDEN_APPS 42
+    setprop ro.lmk.swap_util_max 70
+    setprop ro.lmk.thrashing_limit 60
+    setprop ro.lmk.swap_free_low_percentage 30

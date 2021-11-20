@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.facebook.appmanager" default_action="disable">
+        <criteria action="none" prop="persist.app.facebook.partnerid"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

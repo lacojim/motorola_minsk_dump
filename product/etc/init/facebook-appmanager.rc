@@ -1,0 +1,2 @@
+on boot
+    setprop ro.facebook.partnerid.source property://persist.app.facebook.partnerid

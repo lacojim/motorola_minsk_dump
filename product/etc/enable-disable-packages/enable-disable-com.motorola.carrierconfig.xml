@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.carrierconfig" carrierBased="true" default_action="disable">
+        <criteria action="enable" channel="tmo;metropcs;boost"/>
+        <criteria action="enable" mccmnc="310160" />
+        <criteria action="enable" mccmnc="310200" />
+        <criteria action="enable" mccmnc="310210" />
+        <criteria action="enable" mccmnc="310220" />
+        <criteria action="enable" mccmnc="310230" />
+        <criteria action="enable" mccmnc="310240" />
+        <criteria action="enable" mccmnc="310250" />
+        <criteria action="enable" mccmnc="310260" />
+        <criteria action="enable" mccmnc="310270" />
+        <criteria action="enable" mccmnc="310310" />
+        <criteria action="enable" mccmnc="310490" />
+        <criteria action="enable" mccmnc="310660" />
+        <criteria action="enable" mccmnc="310800" />
+    </package-disable-enable-criteria>
+</enable-disable-package>

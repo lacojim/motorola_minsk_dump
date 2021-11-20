@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moto-desktop-app-config>
+    <package
+        packageName="com.motorola.gamemode"
+        destroyWhenDisplayRemoved="true" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.desktopmode.DesktopModeLauncherActivity"
+        forceWindowMode="fullscreen" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.desktopmode.DesktopModeLauncherActivityGame"
+        forceWindowMode="fullscreen" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.FirstLaunchActivity"
+        forceWindowMode="fullscreen" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.ToolkitLaunchActivity"
+        forceWindowMode="fullscreen" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.desktopmode.tutorial.DesktopTutorialActivity"
+        forceWindowMode="fullscreen" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.desktopmode.ModeChooserActivity"
+        forceWindowMode="fullscreen" />
+
+    <component
+        componentName="com.motorola.gamemode/com.motorola.gamemode.ui.desktopmode.LauncherActivityRouter"
+        forceWindowMode="fullscreen" />
+
+</moto-desktop-app-config>

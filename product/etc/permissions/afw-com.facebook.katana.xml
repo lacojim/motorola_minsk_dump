@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.facebook.katana"/>
+    <disallowed-managed-profile package="com.facebook.katana"/>
+    <disallowed-managed-user    package="com.facebook.katana"/>
+</config>

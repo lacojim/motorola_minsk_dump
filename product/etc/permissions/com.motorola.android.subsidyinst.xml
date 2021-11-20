@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  * Copyright (C) 2019 Motorola Mobility LLC,
+  * All Rights Reserved.
+  * Motorola Mobility Confidential Restricted.
+  -->
+<permissions>
+    <library name="com.motorola.android.subsidyinst"
+        file="/product/framework/com.motorola.android.subsidyinst.jar"/>
+</permissions>

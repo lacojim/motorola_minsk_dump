@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+  <exception
+    package="com.motorola.faceunlock">
+    <permission name="android.permission.CAMERA" fixed="false"/>
+  </exception>
+</exceptions>

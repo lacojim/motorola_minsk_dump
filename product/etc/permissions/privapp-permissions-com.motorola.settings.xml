@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.settings">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <!-- BEGIN Motorola IKSWO-80326: Sprint: add subtext for UICC Unlock menu item -->
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <!-- End Motorola IKSWO-80326 -->
+    </privapp-permissions>
+</permissions>

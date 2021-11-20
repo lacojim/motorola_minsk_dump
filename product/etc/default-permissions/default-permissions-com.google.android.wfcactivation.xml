@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<exceptions>
+  <exception
+    package="com.google.android.wfcactivation">
+    <!-- SMS -->
+    <!-- Receive WAP push for Vodafone UK VoWiFi activation. -->
+    <permission name="android.permission.RECEIVE_WAP_PUSH" fixed="false"/>
+  </exception>
+</exceptions>

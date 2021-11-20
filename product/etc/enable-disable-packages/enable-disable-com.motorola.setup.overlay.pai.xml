@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.setup.overlay.pai" default_action="disable">
+        <criteria action="enable" channel="tefbr"/>
+        <criteria action="enable" channel="entcl"/>
+        <criteria action="enable" channel="niipe"/>
+        <criteria action="enable" channel="tefcl"/>
+        <criteria action="enable" channel="tefco"/>
+        <criteria action="enable" channel="tefmx"/>
+        <criteria action="enable" channel="tefpe"/>
+        <criteria action="enable" channel="tmo"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

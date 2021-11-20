@@ -1,0 +1,2 @@
+user=_app seinfo=platform name=com.qualcomm.qti.services.systemhelper:systemhelper_service domain=vendor_systemhelper_app type=app_data_file levelFrom=user
+user=_app isPrivApp=true name=com.thundercomm.ar.core domain=arcore_app type=privapp_data_file levelFrom=user

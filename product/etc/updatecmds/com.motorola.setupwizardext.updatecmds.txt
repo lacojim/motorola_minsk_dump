@@ -1,0 +1,16 @@
+# Migrate data to the new package from the old one
+
+com.motorola.setup:com.motorola.blur.setup
+    cache
+
+com.motorola.setup:com.motorola.blur.setup
+    databases
+
+com.motorola.setup:com.motorola.blur.setup
+    shared_prefs
+
+com.motorola.setup:com.motorola.blur.setup
+    files
+
+com.motorola.setup:com.motorola.blur.setup
+    lib

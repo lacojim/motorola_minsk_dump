@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.easyprefix" default_action="disable">
+        <criteria action="enable" channel="amxbr;oibr;openbr;retbr;tefbr;timbr"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

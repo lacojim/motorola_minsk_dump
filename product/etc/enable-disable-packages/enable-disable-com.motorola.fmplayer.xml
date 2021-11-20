@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.fmplayer" default_action="enable">
+        <criteria action="disable" channel="cricket"/>
+        <criteria action="disable" channel="att"/>
+        <criteria action="disable" channel="attpre"/>
+        <criteria action="disable" channel="reteu"/>
+        <criteria action="disable" channel="retfr"/>
+        <criteria action="disable" channel="vfeu"/>
+        <criteria action="disable" channel="bouyfr"/>
+        <criteria action="disable" channel="timit"/>
+        <criteria action="disable" channel="windit"/>
+        <criteria action="disable" channel="oraeu"/>
+        <criteria action="disable" channel="altice"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

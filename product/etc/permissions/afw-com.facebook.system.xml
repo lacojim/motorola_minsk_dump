@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.facebook.system"/>
+    <disallowed-managed-profile package="com.facebook.system"/>
+    <disallowed-managed-user    package="com.facebook.system"/>
+</config>

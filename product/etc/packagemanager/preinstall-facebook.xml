@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preinstall-package>
+    <module name="facebook" action="uninstall" channel="comcast;fi;usc"/>
+</preinstall-package>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <privapp-permissions package="com.facebook.services">
+    <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+  </privapp-permissions>
+</permissions>

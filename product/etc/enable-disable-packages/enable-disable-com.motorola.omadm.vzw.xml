@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.omadm.vzw" checkOnReboot="true" carrierBased="true" default_action="disable">
+        <criteria action="enable" mccmnc="311480"/>
+        <criteria action="enable" mccmnc="20404" gid="BAE0000000000000"/>
+        <criteria action="enable" mccmnc="310750" gid="BA00120000000000"/>
+        <criteria action="enable" mccmnc="311440" gid="BA00010000000000"/>
+        <criteria action="enable" mccmnc="310600" gid="BA00040000000000"/>
+        <criteria action="enable" mccmnc="311850" gid="BA00040000000000"/>
+        <criteria action="enable" mccmnc="312010" gid="BA00070000000000"/>
+        <criteria action="enable" mccmnc="311920" gid="BA00070000000000"/>
+        <criteria action="enable" mccmnc="312160" gid="BA00130000000000"/>
+        <criteria action="enable" mccmnc="311430" gid="BA00130000000000"/>
+        <criteria action="enable" mccmnc="310930" gid="BA00170000000000"/>
+        <criteria action="enable" mccmnc="310930" gid="BA00090000000000"/>
+        <criteria action="enable" mccmnc="310900" gid="BA00180000000000"/>
+        <criteria action="enable" mccmnc="310040" gid="BA00140000000000"/>
+        <criteria action="enable" mccmnc="311350" gid="BA00160000000000"/>
+        <criteria action="enable" mccmnc="311420" gid="BA00150000000000"/>
+        <criteria action="enable" mccmnc="310360" gid="BA00020000000000"/>
+        <criteria action="enable" mccmnc="311140" gid="BA00030000000000"/>
+        <criteria action="enable" mccmnc="310960" gid="BA00110000000000"/>
+        <criteria action="enable" mccmnc="311050" gid="BA00050000000000"/>
+        <criteria action="enable" channel="vzw"/>
+        <criteria action="enable" channel="vzwpre"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

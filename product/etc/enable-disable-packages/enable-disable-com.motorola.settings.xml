@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.settings" carrierBased="true" default_action="disable">
+        <criteria action="enable" channel="tmo" mccmnc="310000"/>
+        <criteria action="enable" channel="tmo" mccmnc="310120"/>
+        <criteria action="enable" channel="tmo" mccmnc="311870"/>
+        <criteria action="enable" channel="tmo" mccmnc="312530"/>
+        <criteria action="enable" channel="sprint"/>
+        <criteria action="enable" channel="boost" mccmnc="310000"/>
+        <criteria action="enable" channel="boost" mccmnc="310120"/>
+        <criteria action="enable" channel="boost" mccmnc="311870"/>
+        <criteria action="enable" channel="boost" mccmnc="312530"/>
+        <criteria action="enable" channel="boost" mccmnc="310240" gid="6230"/>
+        <criteria action="enable" channel="retus" mccmnc="310000"/>
+        <criteria action="enable" channel="retus" mccmnc="310120"/>
+        <criteria action="enable" channel="retus" mccmnc="312530"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>
