@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.demo">
+        <!-- System defined permissions -->
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.MEDIA_CONTENT_CONTROL"/>
+        <permission name="android.permission.UPDATE_APP_OPS_STATS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+
+        <!-- We need this permission to access the method setNightMode by UiManager System Service.
+	 Accessing this method, we can revert the dark mode on the device in the
+         case an user set it as true at the device settings. -->
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
+
+        <!-- We need this permission to access running tasks information in order to detect when a
+            specific process exit foreground -->
+        <permission name="android.permission.REAL_GET_TASKS"/>
+
+        <!-- Permission required to access all files in Android R -->
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+    </privapp-permissions>
+</permissions>

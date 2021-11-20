@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<exceptions>
+    <exception package="com.motorola.bug2go">
+
+        <!-- Bug2Go default dangerous permissions -->
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false" />
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false" />
+        <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false" />
+        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false" />
+        <permission name="android.permission.READ_CONTACTS" fixed="false" />
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false" />
+
+    </exception>
+</exceptions>

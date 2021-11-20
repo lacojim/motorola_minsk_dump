@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.appdirectedsmsproxy">
+        <permission name="android.permission.CARRIER_FILTER_SMS"/>
+        <permission name="com.motorola.permission.VVM_SMS_FOR_NOTIFICATION"/>
+        <!-- Begin Motorola chenlh3, 4/7/2021, IKSWR-115 -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <!-- End IKSWR-115 -->
+        <!-- Begin Motorola chenlh3, 4/20/2021, IKSWR-69903 -->
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+        <!-- End IKSWR-69903 -->
+    </privapp-permissions>
+</permissions>

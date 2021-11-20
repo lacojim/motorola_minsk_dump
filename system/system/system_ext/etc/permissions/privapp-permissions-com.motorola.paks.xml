@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.paks">
+
+        <!-- Allow the user password to be changed, internal permission
+        protecting access to the encryption methods -->
+        <permission name="android.permission.CRYPT_KEEPER"/>
+
+        <!--  Required by CCELib -->
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+
+        <!-- Required by Single User -->
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+
+        <!-- Allow listing all users and adding user restrictions -->
+        <permission name="android.permission.MANAGE_USERS"/>
+
+        <!-- Get device IMEI -->
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+
+        <!-- Used to prevent Quick Settings panel to be expanded -->
+        <permission name="android.permission.STATUS_BAR"/>
+
+        <!-- Used to prevent password to be requested during device boot-up -->
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+
+        <!-- Permission to allow PAKS to write on new persist file. -->
+        <permission name="com.motorola.permission.ACCESS_PRODUCT_PERSIST"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,3 @@
+<permissions>
+     <library name="com.motorola.libimgTuner" file="/system_ext/framework/com.motorola.libimgTuner.jar" />
+</permissions>

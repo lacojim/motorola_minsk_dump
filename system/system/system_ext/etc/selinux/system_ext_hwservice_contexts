@@ -1,0 +1,3 @@
+vendor.qti.hardware.sigma_miracast::Isigma_miracast             u:object_r:vendor_sigmahal_hwservice:s0
+vendor.qti.hardware.qccsyshal::IQccsyshal                       u:object_r:vendor_qccsyshal_hwservice:s0
+motorola.hardware.tcmd::IMotTcmd          u:object_r:hal_mottcmd_hwservice:s0

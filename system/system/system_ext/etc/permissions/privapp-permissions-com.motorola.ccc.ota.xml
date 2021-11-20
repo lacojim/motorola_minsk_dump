@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <privapp-permissions package="com.motorola.ccc.ota">
+        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+        <permission name="android.permission.ACCESS_CHECKIN_PROPERTIES"/>
+        <permission name="android.permission.CLEAR_APP_CACHE"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.MASTER_CLEAR"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="com.motorola.permission.CLEAR_CACHE"/>
+        <permission name="com.motorola.permission.READ_CID_BLOCK"/>
+        <permission name="android.permission.NOTIFY_PENDING_SYSTEM_UPDATE"/>
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
+        <permission name="android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS"/>
+ </privapp-permissions>
+</permissions>
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.att.iqi" default_action="disable">
+        <criteria action="enable" channel="att;attpre;cricket" prop="ro.product.iqi.enable" prop_value="true"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

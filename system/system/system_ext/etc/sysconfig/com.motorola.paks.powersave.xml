@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Since Android O, the system limits background applications
+execution, and PAKS need to run in background without notifying
+the user.
+
+This file must be in device to enable PAKS to run in background.
+-->
+<permissions>
+    <allow-in-power-save package="com.motorola.paks" />
+</permissions>

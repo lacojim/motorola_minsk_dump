@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+    <permission name="com.motorola.permission.QCOM_DIAG">
+        <group gid="oem_2901" />
+    </permission>
+</permissions>

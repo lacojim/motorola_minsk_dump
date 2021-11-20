@@ -1,0 +1,5 @@
+
+# These instructions need to be run by init process, not vendor_init
+# so they are moved from init.$(platform).rc to here.
+
+# empty at the moment, needed in some integrations.

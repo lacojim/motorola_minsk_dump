@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<!-- Read and write permission need by group 'vendor_tcmd'  -->
+    <permission name="com.motorola.permission.ACCESS_PAKS" >
+        <group gid="vendor_tcmd"/>
+    </permission>
+</permissions>

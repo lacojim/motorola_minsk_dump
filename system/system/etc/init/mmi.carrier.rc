@@ -1,0 +1,81 @@
+on early-fs
+    exec_start mmi-carrier-sh
+
+on early-boot
+    exec_start post-mmi-carrier-sh
+
+on post-fs-data
+    start data-mmi-carrier-sh
+
+on property:persist.omadm.operator.numeric=310000 && property:persist.carrier.google.searchid=*
+    exec_start post-mmi-sprint-sh
+
+on property:persist.carrier.carrierid=* && property:persist.carrier.google.searchid=*
+    exec_start post-mmi-sprint-sh
+
+on property:sys.retaildemo.enabled=1
+    start demo-mmi-carrier-sh
+
+service mmi-carrier-sh /system/bin/init.mmi.carrier.sh -i
+    user root
+    oneshot
+    disabled
+
+service post-mmi-carrier-sh /system/bin/init.mmi.carrier.sh -o
+    user root
+    oneshot
+    disabled
+
+service post-mmi-sprint-sh /system/bin/init.mmi.carrier.sh -s
+    user root
+    oneshot
+    disabled
+
+service data-mmi-carrier-sh /system/bin/init.mmi.carrier.sh -d
+    user root
+    oneshot
+    disabled
+
+service demo-mmi-carrier-sh /system/bin/init.mmi.carrier.sh -e
+    user root
+    oneshot
+    disabled
+
+on property:ro.product.brand=* && property:ro.product.device=*
+    setprop ro.opa.device_model_id ${ro.product.brand}-${ro.product.device}
+
+on property:ro.mot.gms.clientidbase=*
+    setprop ro.com.google.clientidbase ${ro.mot.gms.clientidbase}
+
+on property:ro.mot.gms.clientidbase.am=*
+    setprop ro.com.google.clientidbase.am ${ro.mot.gms.clientidbase.am}
+
+on property:ro.mot.gms.clientidbase.ms=*
+    setprop ro.com.google.clientidbase.ms ${ro.mot.gms.clientidbase.ms}
+
+on property:ro.mot.gms.clientidbase.gmm=*
+    setprop ro.com.google.clientidbase.gmm ${ro.mot.gms.clientidbase.gmm}
+
+on property:ro.mot.gms.clientidbase.yt=*
+    setprop ro.com.google.clientidbase.yt ${ro.mot.gms.clientidbase.yt}
+
+on property:ro.mot.gms.clientidbase.wal=*
+    setprop ro.com.google.clientidbase.wal ${ro.mot.gms.clientidbase.wal}
+
+on property:ro.mot.gms.clientidbase.pg=*
+    setprop ro.com.google.clientidbase.pg ${ro.mot.gms.clientidbase.pg}
+
+on property:ro.vendor.hw.gabutton=true
+    setprop ro.com.google.assistantchannel motorola
+
+on property:ro.com.google.assistantchannel=* && property:ro.mot.gms.clientidbase.ms=*
+    setprop ro.mot.gms.clientidbase.vs ${ro.mot.gms.clientidbase.ms}
+
+on property:ro.product.gms_premier_tier=true && property:ro.mot.gms.clientidbase.ms=*
+    setprop ro.com.google.clientidbase.vs ${ro.mot.gms.clientidbase.ms}
+
+on property:ro.mot.gms.clientidbase.vs=*
+    setprop ro.com.google.clientidbase.vs ${ro.mot.gms.clientidbase.vs}
+
+on property:ro.mot.gms.rlz_ap_whitelist=*
+    setprop ro.com.google.rlz_ap_whitelist ${ro.mot.gms.rlz_ap_whitelist}

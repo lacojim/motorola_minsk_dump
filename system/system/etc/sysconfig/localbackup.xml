@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+   <backup-transport-whitelisted-service service="android/com.android.internal.backup.LocalTransport" />
+</config>

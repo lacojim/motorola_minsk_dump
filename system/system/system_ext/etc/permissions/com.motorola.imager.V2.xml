@@ -1,0 +1,4 @@
+<permissions>
+   <library name="com.motorola.imager.V2"
+       file="/product/framework/com.motorola.imager.V2" />
+</permissions>

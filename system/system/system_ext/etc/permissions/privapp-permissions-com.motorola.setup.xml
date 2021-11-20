@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+    <privapp-permissions package="com.motorola.setup" >
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.CHANGE_CONFIGURATION"/>
+        <permission name="android.permission.FORCE_STOP_PACKAGES"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.MANAGE_USERS"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+    </privapp-permissions>
+
+</permissions>

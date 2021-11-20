@@ -1,0 +1,8 @@
+# We introduce /system_ext partition from Android R
+service mot.tcmd-hal-1-0 /system_ext/bin/hw/motorola.hardware.tcmd@1.0-service
+    interface motorola.hardware.tcmd@1.0::IMotTcmd default
+    class hal
+    user system
+    group system vendor_prod_persist
+    disabled
+    oneshot

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- OTA service must be  white-listed to always have internet access while
+         in power save mode and datasaver mode, even if it isn't in the foreground. -->
+
+    <!-- OTA must always have network access for polling and downloading. -->
+    <allow-in-power-save package="com.motorola.ccc.ota" />
+    <allow-in-data-usage-save package="com.motorola.ccc.ota" />
+</config>

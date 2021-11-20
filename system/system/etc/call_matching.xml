@@ -1,0 +1,42 @@
+<callerids>
+
+  <callerid mcc='724' max='10' min='7'/>
+  <callerid mcc='342' max='11' min='7'/>
+  <callerid mcc='738' max='8' min='7'/>
+  <callerid mcc='730' max='8' min='8'/>
+  <callerid mcc='334' max='10' min='7'/>
+  <callerid mcc='352' max='11' min='7'/>
+  <callerid mcc='748' max='8' min='6'/>
+  <callerid mcc='704' max='8' min='7'/>
+  <callerid mcc='366' max='11' min='7'/>
+  <callerid mcc='722' max='6' min='6'/>
+  <callerid mcc='340' max='8' min='7'/>
+  <callerid mcc='363' max='8' min='7'/>
+  <callerid mcc='708' max='8' min='7'/>
+  <callerid mcc='360' max='11' min='7'/>
+  <callerid mcc='716' max='7' min='7'/>
+  <callerid mcc='330' max='10' min='10'/>
+  <callerid mcc='374' max='7' min='7'/>
+  <callerid mcc='376' max='11' min='7'/>
+  <callerid mcc='338' max='11' min='7'/>
+  <callerid mcc='746' max='8' min='7'/>
+  <callerid mcc='714' max='11' min='7'/>
+  <callerid mcc='358' max='11' min='7'/>
+  <callerid mcc='710' max='8' min='7'/>
+  <callerid mcc='734' max='10' min='10'/>
+  <callerid mcc='370' max='10' min='10'/>
+  <callerid mcc='362' max='8' min='7'/>
+  <callerid mcc='706' max='8' min='7'/>
+  <callerid mcc='740' max='7' min='7'/>
+  <callerid mcc='356' max='11' min='7'/>
+  <callerid mcc='732' max='10' min='10'/>
+  <callerid mcc='744' max='8' min='6'/>
+  <callerid mcc='712' max='8' min='8'/>
+  <callerid mcc='372' max='8' min='7'/>
+  <callerid mcc='346' max='11' min='7'/>
+  <callerid mcc='365' max='11' min='7'/>
+  <callerid mcc='348' max='11' min='7'/>
+  <callerid mcc='354' max='11' min='7'/>
+  <callerid mcc='344' max='11' min='7'/>
+  <callerid mcc='364' max='11' min='7'/>
+</callerids>

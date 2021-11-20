@@ -1,0 +1,11 @@
+service bootanim /system/bin/bootanimation
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    ioprio rt 0
+    task_profiles MaxPerformance
+
+on property:service.bootanim.exit=0 && property:init.svc.bootanim=stopped
+    start bootanim

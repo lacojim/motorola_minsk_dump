@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright (C) 2020 Motorola Mobility Inc.
+     All Rights Reserved.
+     Motorola Mobility Confidential Restricted.
+-->
+<permissions>
+    <privapp-permissions package="com.motorola.wifi.motowifimetrics">
+        <permission name="android.permission.DUMP"/>
+    </privapp-permissions>
+</permissions>

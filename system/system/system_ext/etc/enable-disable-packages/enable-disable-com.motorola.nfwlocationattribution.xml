@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<enable-disable-package>
+    <package-disable-enable-criteria package="com.motorola.nfwlocationattribution" carrierBased="true" default_action="enable">
+        <criteria action="disable" channel="comcast" mccmnc="311480" gid="BA01450000000000"/>
+        <criteria action="disable" channel="comcast" mccmnc="20404" gid="BA01450000000000"/>
+    </package-disable-enable-criteria>
+</enable-disable-package>

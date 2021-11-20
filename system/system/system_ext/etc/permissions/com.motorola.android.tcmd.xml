@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+<!-- RW permissions to local tcmd socket owned by group 'vendor_tcmd'  -->
+    <permission name="com.motorola.android.permission.TCMD_LOCAL" >
+        <group gid="vendor_tcmd" />
+    </permission>
+
+    <assign-permission name="android.permission.WRITE_SECURE_SETTINGS" uid="vendor_tcmd" />
+    <assign-permission name="android.permission.INTERNET" uid="vendor_tcmd" />
+</permissions>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+For PAKS to work properly, it must call methods that aren't visible
+from the SDK such as saveLockPassword from LockPatternUtils.
+
+We need this file to be in device since PAKS is build with gradle now
+and it accesses plattaform methods via reflection.
+-->
+<config>
+    <hidden-api-whitelisted-app package="com.motorola.paks" />
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.motorola.livewallpaper3"/>
+    <disallowed-managed-profile package="com.motorola.livewallpaper3"/>
+    <disallowed-managed-user    package="com.motorola.livewallpaper3"/>
+</config>

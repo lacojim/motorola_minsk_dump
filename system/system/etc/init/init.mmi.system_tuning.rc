@@ -1,0 +1,9 @@
+service mmi-system-tuning-sh /system/bin/init.mmi.system_tuning.sh ${persist.sys.mmi_system_tuning}
+    class late_start
+    user root
+    group root system
+    oneshot
+    disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.mmi_system_tuning=*
+    start mmi-system-tuning-sh

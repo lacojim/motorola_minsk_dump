@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+    <disallowed-managed-device  package="com.android.wallpaper"/>
+    <disallowed-managed-profile package="com.android.wallpaper"/>
+</config>

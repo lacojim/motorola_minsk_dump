@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+    <library name="com.verizon.os"
+        file="/system_ext/framework/com.verizon.os.jar"
+    />
+</permissions>

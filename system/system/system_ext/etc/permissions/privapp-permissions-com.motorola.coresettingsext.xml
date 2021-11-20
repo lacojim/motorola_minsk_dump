@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.motorola.coresettingsext">
+        <permission name="android.permission.ACCESS_NETWORK_CONDITIONS"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<permissions>
+    <!-- Add custom moto framework supported features below this line -->
+
+    <!-- BEGIN motorola, a14859, 2021-06-24, IKSWR-102141
+      This feature indicates the framework supports windows of type TYPE_MOTO_TRUSTED_APPS_OVERLAY
+      to specify a flag PRIVATE_FLAG_MOTO_SKIP_SCREENSHOT to exclude the window from screen capture.
+      -->
+    <feature name="com.motorola.software.feature.window_flag_skip_screenshot"/>
+    <!-- END IKSWR-102141 -->
+</permissions>

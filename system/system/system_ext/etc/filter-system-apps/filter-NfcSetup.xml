@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<filter-system-apps>
+    <module name="NfcSetup" action="enable" prop="ro.vendor.hw.nfc" value="true;nxp;ese_nxp;ese_nq"/>
+</filter-system-apps>
